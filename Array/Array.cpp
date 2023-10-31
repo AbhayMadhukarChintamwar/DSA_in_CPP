@@ -1,5 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    cout<<"Welcom to the my GitHub Repo..";
+void printArray(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
+int main()
+{
+    int n;
+    cin >> n;
+    int number[n] = {1};
+    printArray(number, n);
+    return 0;
 }
